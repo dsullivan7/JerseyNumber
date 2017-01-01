@@ -13,3 +13,6 @@ To modify javascript
 ```
 browserify -t [ babelify ] ./web_server/static/src/index.js -o ./web_server/static/build/bundle.js
 ```
+
+A working demo is availabe here:
+http://safe-cove-96532.herokuapp.com/
