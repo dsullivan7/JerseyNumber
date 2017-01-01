@@ -1,0 +1,46 @@
+{
+  "name": "my_jersey_number",
+  "version": "1.0.0",
+  "description": "",
+  "main": "runserver.py",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "browserify -t [ babelify ] ./web_server/static/src/index.js -o ./web_server/static/build/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dsullivan7/JerseyNumber.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsullivan7/JerseyNumber/issues"
+  },
+  "homepage": "https://github.com/dsullivan7/JerseyNumber",
+  "dependencies": {
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.1",
+    "material-ui": "^0.16.4",
+    "object-assign": "^4.1.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-icons": "^2.2.1",
+    "react-redux": "^4.4.6",
+    "react-router": "^2.8.1",
+    "react-tap-event-plugin": "git+https://github.com/zilverline/react-tap-event-plugin.git#master",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.1.0",
+    "whatwg-fetch": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.8.0"
+  }
+}
