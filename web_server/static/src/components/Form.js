@@ -46,6 +46,7 @@ const Form = ({ onSubmit }) => {
         ref={(node) => { numberInput = node }}
         id="numberInput"
         style={styles.controls}
+        floatingLabelText="Enter a number from 0 to 99"
         inputStyle={styles.controlText}
       />
       <RaisedButton
